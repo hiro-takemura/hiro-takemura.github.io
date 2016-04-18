@@ -1,0 +1,72 @@
+@charset "utf-8";
+/*
+Theme Name: You Takemura portfolio
+Description: under ground techno music guides another experience
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+	font-size:15px;
+		font-family:Georgia, "Times New Roman", Times, serif,
+		'Hiragino Mincho Pro', 'HiraMinProN-W3', 'HiraMinProN-W6',
+		'ヒラギノ明朝 Pro W3', 'Hiragino Kaku Gothic Pro',
+		'ヒラギノ角ゴ Pro W3', 'Meiryo', 'メイリオ';
+         /* 画像ファイルの指定 */
+        background-image: url(top2.jpg);
+   
+          /* 画像を常に天地左右の中央に配置 */
+        background-position: center center;
+   
+        /* 画像をタイル状に繰り返し表示しない */
+        background-repeat: no-repeat;
+   
+        /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
+        background-attachment: fixed;
+   
+        /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
+        background-size: cover;
+   
+        /* 背景画像が読み込まれる前に表示される背景のカラー */
+        background-color: #464646;
+}
+
+nav {
+  padding: 5px  5px;
+  text-align: center;
+  background: #0033cc;
+}
+
+nav ul {
+  margin: 5px 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 0 0;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+container {
+  font-size:100px;
+	color:#fff;
+	letter-spacing:100px;
+	clear: both;
+	font-weight: normal;
+}
+
+container style {
+  vertical-align:text-bottom;
+  font-size:12;
+  color:#fff;
+}
